@@ -9,7 +9,7 @@
     - setup: # aka gather_facts
   vars:
     ansible_ssh_user: ubuntu
-    ansible_ssh_private_key_file: ~/downloads/Ohio.pem
+    ansible_ssh_private_key_file: ~/downloads/fullstack.pem
   become: yes
   # tasks:
   #   - name: install python 2
